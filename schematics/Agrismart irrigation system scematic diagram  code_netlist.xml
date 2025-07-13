@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist sketch="Agrismart irrigation system scematic diagram  code.fzz" date="Sat Oct 5 14:20:00 2024">
+ <net>
+  <connector id="connector1" name="anode">
+   <part id="854127520" label="D1" title="Schottky Diode"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part id="854125940" label="5v Fan" title="Fan - Ventilador"/>
+  </connector>
+  <connector id="connector2" name="C">
+   <part id="854126760" label="Q1" title="TRANSISTOR_NPN"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="cathode">
+   <part id="854127520" label="D1" title="Schottky Diode"/>
+  </connector>
+  <connector id="connector0" name="5V">
+   <part id="854125940" label="5v Fan" title="Fan - Ventilador"/>
+  </connector>
+  <connector id="connector19" name="3V3">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector17" name="RST">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector1" name="VCC">
+   <part id="854106830" label="LCD Display" title="LCD screen 16x2 IIC"/>
+  </connector>
+  <connector id="connector1" name="power">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10" name="D8">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector8" name="D6">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector12" name="TX">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector1" name="D1">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector9" name="D7">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector14" name="3V3">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector6" name="GND">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector7" name="D5">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector13" name="GND">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector11" name="RX">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part id="854128250" label="R1" title="220Ω Resistor"/>
+  </connector>
+  <connector id="connector6" name="GND">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+  <connector id="connector3" name="GND">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+  <connector id="connector4" name="GND">
+   <part id="854104830" label="DHT1" title="DHT11 Humitidy and Temperature Sensor"/>
+  </connector>
+  <connector id="connector3" name="SCL">
+   <part id="854106830" label="LCD Display" title="LCD screen 16x2 IIC"/>
+  </connector>
+  <connector id="connector0" name="1">
+   <part id="854122760" label="S1" title="Momentary Switch"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="B">
+   <part id="854126760" label="Q1" title="TRANSISTOR_NPN"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part id="854128250" label="R1" title="220Ω Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="E">
+   <part id="854126760" label="Q1" title="TRANSISTOR_NPN"/>
+  </connector>
+  <connector id="connector33" name="GND">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector2" name="3">
+   <part id="854122760" label="S1" title="Momentary Switch"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part id="854106830" label="LCD Display" title="LCD screen 16x2 IIC"/>
+  </connector>
+  <connector id="connector2" name="ground">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="3V3">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector7" name="VCC">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+  <connector id="connector2" name="VCC">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+  <connector id="connector1" name="VDD">
+   <part id="854104240" label="PIR1" title="PIR sensor"/>
+  </connector>
+  <connector id="connector1" name="VDD">
+   <part id="854104830" label="DHT1" title="DHT11 Humitidy and Temperature Sensor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="Positive Output">
+   <part id="854120920" label="Buck Convertor1" title="Buck Convertor"/>
+  </connector>
+  <connector id="connector5" name="NO">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="Negative Output">
+   <part id="854120920" label="Buck Convertor1" title="Buck Convertor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="positive">
+   <part id="854120950" label="BATT1" title="LiPoly Battery (1300mAh)"/>
+  </connector>
+  <connector id="connector1" name="Positive Input">
+   <part id="854120920" label="Buck Convertor1" title="Buck Convertor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="negative">
+   <part id="854120950" label="BATT1" title="LiPoly Battery (1300mAh)"/>
+  </connector>
+  <connector id="connector0" name="Negative Input">
+   <part id="854120920" label="Buck Convertor1" title="Buck Convertor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="C">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="D3">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector0" name="signal">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="D2">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector2" name="SDA">
+   <part id="854106830" label="LCD Display" title="LCD screen 16x2 IIC"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="D4">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector2" name="DATA">
+   <part id="854104830" label="DHT1" title="DHT11 Humitidy and Temperature Sensor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="GND">
+   <part id="854104240" label="PIR1" title="PIR sensor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="SIG">
+   <part id="854104240" label="PIR1" title="PIR sensor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector42" name="A0">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+  <connector id="connector5" name="SIG">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+  <connector id="connector4" name="SIG">
+   <part id="854103280" label="Soil Moisture " title="Soil Moisture Sensor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector39" name="SD3">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18" name="EN">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector38" name="SD2">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="D0">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector37" name="SD1">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector35" name="SD0">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector41" name="RSV">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector36" name="CMD">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector34" name="CLK">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="Vin">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16" name="GND">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector40" name="RSV">
+   <part id="62030" label="U1" title="NodeMCU V1.0"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="4">
+   <part id="854122760" label="S1" title="Momentary Switch"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="2">
+   <part id="854122760" label="S1" title="Momentary Switch"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin 1">
+   <part id="854113800" label="WATER PUMP1" title="water pump/motor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin 2">
+   <part id="854113800" label="WATER PUMP1" title="water pump/motor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="NC">
+   <part id="854111020" label="5v Relay Module" title="Keyes Relay"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="NULL">
+   <part id="854104830" label="DHT1" title="DHT11 Humitidy and Temperature Sensor"/>
+  </connector>
+ </net>
+</netlist>
