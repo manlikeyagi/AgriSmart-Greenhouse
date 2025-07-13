@@ -22,6 +22,11 @@ The goal of AgriSmart is to create a **comprehensive, automated greenhouse manag
 - A DHT11 sensor and **three 5V cooling fans** regulate temperature and humidity inside the greenhouse.
 - A **PIR motion sensor** and **buzzer** are integrated for detecting intrusions and alerting the farmer.
 
+    <h3 align="center">🔧 AgriSmart Irrigation system Mobile application</h3>
+<p align="center">
+  <img src="images/agrismart irrigation app.jpg" width="400"/>
+</p>
+
 ### ☀️ Weather Station
 
 - Continuously monitors environmental conditions using:
