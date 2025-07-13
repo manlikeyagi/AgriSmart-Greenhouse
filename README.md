@@ -5,5 +5,5 @@ Sensors are used in the irrigation system to monitor soil moisture levels to max
 
 <h3 align="center">🔧 AgriSmart Schematic Diagram</h3>
 <p align="center">
-  <img src="schematics/agrismart_schematic.png" width="600"/>
+  <img src="schematics/Agrismart irrigation system scematic diagram  PNG.png" width="600"/>
 </p>
