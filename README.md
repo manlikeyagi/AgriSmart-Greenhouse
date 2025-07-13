@@ -9,7 +9,7 @@
 
   <h3 align="center">🔧 AgriSmart Schematic Diagram</h3>
 <p align="center">
-  <img src="schematics/Agrismart irrigation system scematic diagram  PNG.png" width="600"/>
+  <img src="images/Agrismart station Image 2025-07-13 at 09.07.17_ddf1a8b1.jpg" width="600"/>
 </p>
 
 Each system is built using **NodeMCU microcontrollers** and a range of sensors and actuators to ensure optimal conditions for plant growth, operational efficiency, and environmental safety.
