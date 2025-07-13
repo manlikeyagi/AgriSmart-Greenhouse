@@ -1,7 +1,37 @@
 # AgriSmart-Greenhouse irrigation system 
-AgriSmart is an integrated IoT solution designed to monitor and manage various environmental and operational aspects of a greenhouse farm. The project comprises three main sysytem: the implementation of the AgriSmart irrigation system, the AgriSmart weather station, and finally, the AgriSmart gas analyzer. Each system is built using NodeMCU microcontrollers and a range of sensors and actuators to ensure optimal conditions for plant growth and operational efficiency.
-To optimize plant development, increase greenhouse management, and guarantee security and safety, this project aims to create a comprehensive, automated greenhouse management system using Internet of Things technology. The project comprises three main sections: a weather station, an irrigation system, and a gas analyzer. NodeMCU microcontrollers and the Blynk software control each of the integrated sensors in each section.
-Sensors are used in the irrigation system to monitor soil moisture levels to maximize water usage. A DHT11 sensor and three 5V fans are used to control the temperature and humidity in the greenhouse, creating the ideal conditions for plant growth. To further improve security, a buzzer and a PIR motion sensor are added. These devices can identify unwanted entries and notify the farmer. The weather station offers continuous environmental condition monitoring. To gather information on light intensity, temperature, humidity, and rainfall, it combines a light sensor, a DHT11 temperature and humidity sensor, and a rain sensor. Remote monitoring and control are made possible by this data, which is sent to the Blynk app and shown on an LCD panel. The MQ135 gas sensor is used by the gas analyzer, which focuses on air quality, to identify dangerous gases including ammonia and CO2. A NodeMCU microcontroller processes the sensor data and transmits it to the Blynk app for real-time monitoring, guaranteeing the safety of the greenhouse environment for both workers and plants.
+## 🌿 About AgriSmart
+
+**AgriSmart** is an integrated IoT solution designed to monitor and manage various environmental and operational aspects of a greenhouse farm. The project comprises three main systems:
+
+- 🌀 **AgriSmart Irrigation System**
+- ☀️ **AgriSmart Weather Station**
+- 🧪 **AgriSmart Gas Analyzer**
+
+Each system is built using **NodeMCU microcontrollers** and a range of sensors and actuators to ensure optimal conditions for plant growth, operational efficiency, and environmental safety.
+
+The goal of AgriSmart is to create a **comprehensive, automated greenhouse management system** using Internet of Things (IoT) technology to improve productivity, optimize resource usage, and enhance security.
+
+### 💧 Irrigation System
+
+- Uses soil moisture sensors to monitor water levels and automate irrigation.
+- A DHT11 sensor and **three 5V cooling fans** regulate temperature and humidity inside the greenhouse.
+- A **PIR motion sensor** and **buzzer** are integrated for detecting intrusions and alerting the farmer.
+
+### ☀️ Weather Station
+
+- Continuously monitors environmental conditions using:
+  - Light sensor
+  - DHT11 temperature & humidity sensor
+  - Rain sensor
+- Data is displayed on an **LCD panel** and transmitted to the **Blynk app** for real-time remote monitoring.
+
+### 🧪 Gas Analyzer
+
+- Focuses on **air quality monitoring** inside the greenhouse.
+- Uses an **MQ135 gas sensor** to detect harmful gases such as **ammonia (NH₃)** and **carbon dioxide (CO₂)**.
+- Sensor data is processed by a NodeMCU and transmitted to the Blynk platform for live monitoring.
+
+Together, these systems help optimize plant development, improve greenhouse management, and ensure safety for both plants and personnel.
 
 <h3 align="center">🔧 AgriSmart Schematic Diagram</h3>
 <p align="center">
