@@ -7,6 +7,11 @@
 - ☀️ **AgriSmart Weather Station**
 - 🧪 **AgriSmart Gas Analyzer**
 
+  <h3 align="center">🔧 AgriSmart Schematic Diagram</h3>
+<p align="center">
+  <img src="schematics/Agrismart irrigation system scematic diagram  PNG.png" width="600"/>
+</p>
+
 Each system is built using **NodeMCU microcontrollers** and a range of sensors and actuators to ensure optimal conditions for plant growth, operational efficiency, and environmental safety.
 
 The goal of AgriSmart is to create a **comprehensive, automated greenhouse management system** using Internet of Things (IoT) technology to improve productivity, optimize resource usage, and enhance security.
